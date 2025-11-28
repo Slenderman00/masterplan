@@ -29,7 +29,7 @@ This will allow us to identify the criteria best suited to comparing these syste
 This systematization of knowledge will assist in choosing paradigms to test.
 \\
 \\
-We will design and implement a minimal DNS-server tailored to function as a kubernetes ingress controller. The DNS-server will be tailored for efficient traffic steering based on pod metrics. We will create dummy microservices and client simulators. Implement best practice configurations for our selected baseline paradigms. The number of pods will remain constant while the number of simulated clients will vary. Metrics like RTT, throughput, CPU utilization and failover behavior after simulated node and pod crashes will be analyzed and compared between the different paradigms.
+We will design and implement a minimal DNS-server tailored to function as a Kubernetes ingress controller. Because each pod is assigned its own globally routable IPv6 address, the proposed design removes the need for all Layer 7 ingress proxies, performing traffic steering only through DNS. The DNS-server will be tailored for efficient traffic steering based on pod metrics. We will create dummy microservices and client simulators. Implement best practice configurations for our selected baseline paradigms. The number of pods will remain constant while the number of simulated clients will vary. Metrics like RTT, throughput, CPU utilization and failover behavior after simulated node and pod crashes will be analyzed and compared between the different paradigms.
 
 \section*{Progress Plan and Milestones}
 
