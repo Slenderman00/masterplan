@@ -1,0 +1,65 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+
+\title{Master Thesis Project Description}
+\author{Joar Heimonen}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Temporary Title}
+DNS-Based Traffic Steering for IPv6 Enabled Edge Microservices
+
+\section*{Temporary Thesis Statement}
+This thesis investigates whether DNS-based traffic steering combined
+with direct IPv6 addressing of microservices can function as a viable alternative
+to traditional Layer 7 ingress proxies and service meshes. This work includes both a systematization of existing solutions to proxy scalability, and an experimental evaluation comparing the Layer 7 based traffic steering with different configurations of DNS-based traffic steering.
+
+\section*{Methodology}
+We will analyze the problem of proxy scalability and look at the principal approaches to proxy based traffic steering. This includes Layer 7 proxies, service meshes and client-side load balancing.
+The goal is to identify common design patterns and tradeoffs in these systems.
+This will allow us to identify the criteria best suited to comparing these systems with each other and with our DNS-based approach.
+This systematization of knowledge will assist in choosing paradigms to test.
+\\
+\\
+We will design and implement a minimal DNS-server tailored to function as a kubernetes ingress controller. The DNS-server will be tailored for efficient traffic steering based on pod metrics. We will create dummy microservices and client simulators. Implement best practice configurations for our selected baseline paradigms. The number of pods will remain constant while the number of simulated clients will vary. Metrics like RTT, throughput, CPU utilization and failover behavior after simulated node and pod crashes will be analyzed and compared between the different paradigms.
+
+\section*{Progress Plan and Milestones}
+
+\subsection*{Spring 2026}
+\begin{itemize}
+    \item Systematization of knowledge
+    \item Start development of DNS server
+\end{itemize}
+
+\subsection*{Autumn 2026}
+\begin{itemize}
+    \item Finish development of DNS server
+    \item Implement client simulator and dummy microservices
+    \item Select baseline paradigms
+    \item Start developing the experiments
+\end{itemize}
+
+\subsection*{Spring 2027}
+\begin{itemize}
+    \item Finish developing the experiments
+    \item Perform the experiments
+    \item Write the master thesis and related articles
+\end{itemize}
+
+\section*{Relevant Curriculum}
+AUTUMN25 - IN4070 - Logic - 10 ECTS \\
+AUTUMN25 - IN5020 - Distributed Systems - 10 ECTS \\
+AUTUMN25 - IN5060 - Quantitative Performance Analysis - 10 ECTS \\
+AUTUMN25 - IN5060 - Recent Advancements in Internet Protocols - 10 ECTS \\
+SPRING26 - IN4000 – Operating Systems - 20 ECTS \\
+AUTUMN26 - IN5031 - Protocols and AI for Future Internet - 10 ECTS
+
+\end{document}
