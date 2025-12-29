@@ -1,5 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1767011146.63599 "masterplan.tex" "masterplan.pdf" "masterplan" 1767011146.80504 0
+["pdflatex"] 1767012678.61935 "/home/joar/Documents/masterplan/masterplan.tex" "masterplan.pdf" "masterplan" 1767012678.76235 0
+  "/home/joar/Documents/masterplan/masterplan.tex" 1767012678.47737 4104 2a936280248a243f78c6d249bb3bc462 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1755987285 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1755987285 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1755987285 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -9,6 +10,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1755987285 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm" 1755987285 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm" 1755987285 12156 ca1ae6a3c8564e89597f1f993fba1608 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm" 1755987285 17148 9556e1b5f936b77a796f68d2d559ba99 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/lmex10.tfm" 1755987285 992 ce925c9346c7613270a79afbee98c070 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm" 1755987285 1524 753b192b18f2991794f9d41a8228510b ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/lmmi6.tfm" 1755987285 1512 94a3fd88c6f27dbd9ecb46987e297a4e ""
@@ -24,6 +26,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb" 1755987285 119235 f35b44530a1d90eb90fe15d9cba67ea0 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb" 1755987285 113634 f99c44d58bae0863375faf0e1d74d612 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb" 1755987285 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb" 1755987285 112593 fda2373ba4420af33949610de4c28fe8 ""
   "/usr/share/texmf-dist/tex/generic/iftex/iftex.sty" 1755987285 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty" 1755987285 1057 525c2192b5febbd8c1f662c9468335bb ""
   "/usr/share/texmf-dist/tex/latex/base/article.cls" 1755987285 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
@@ -44,8 +47,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1762781123 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1762781118 2008249 cdbdffd53eba3805e38080e0662ff3d7 ""
-  "masterplan.aux" 1767011146.78748 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "masterplan.tex" 1767011146.42237 3493 b1cc20048461ccf851d916889fcb0fd7 ""
+  "masterplan.aux" 1767012678.74318 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "masterplan.tex" 1767012678.47737 4104 2a936280248a243f78c6d249bb3bc462 ""
   (generated)
   "masterplan.aux"
   "masterplan.log"
